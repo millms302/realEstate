@@ -1,0 +1,23 @@
+body{
+    font-family: arial;
+    background-color: white;
+}
+img{
+    max width: 100%;
+}
+
+p{
+    line height: 2;
+    flex-wrap: center;
+    width: 60%
+}
+
+/*header*/
+header{
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 300px;
+    max-width: 100%;
+}
