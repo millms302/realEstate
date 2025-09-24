@@ -14,7 +14,7 @@ p{
 
 /*header*/
 
-header{
+.header-init{
     background-image: url(./images/header.jpg);
     background-size: cover;
     color: white;
@@ -33,7 +33,6 @@ header{
 .house-container{
     display: flex;
     flex-direction: row;
-
     
 }
 
@@ -104,7 +103,70 @@ a{
 }
 
 .btn-details{
+    display: flex;
     background-color: orange;
     color: white;
-    align-items: center;
+
+}
+
+/*Contact*/
+
+.header-contact{
+    background-color: orange;
+    height: 100px;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+form{
+    width: 80%;
+    margin: 50px auto;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.input-container{
+    margin: 20px;
+}
+
+.input-container label{
+    display: inline-block;
+    width: 100px;
+}
+
+.input-container input,
+.input-container textarea{
+    width: 80%;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 100px;
+}
+
+.cr-links{
+    display: flex;
+}
+
+.pp{
+    border-left: 3px solid black;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.sm a{
+    margin-right: 10px;
+    color: black;
 }
