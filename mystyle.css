@@ -8,8 +8,8 @@ img{
 
 p{
     line-height: 2;
-    flex-wrap: center;
-    width: 60%
+    width: 60%;
+
 }
 
 /*header*/
@@ -19,20 +19,92 @@ header{
     background-size: cover;
     color: white;
     text-align: center;
-    height: 300px;
-    max-width: 100%;
+    height: 350px;
 }
+
+.field{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*section*/
+
+.house-container{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.house-item{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:column;
+   
+}
+
+.house-item-img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.house-item-text{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Price{
+    color: rgb(17, 128, 17);
+}
+
+.icons-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-bottom: 20px;
+
+}
+
+.card .house-item{
+    width:100%;
+    background-color: whitesmoke;
+    font-family: arial;
+    
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*buttons*/
 
 a{
     text-decoration: none;
     color: white;
 }
-/*buttons*/
 
-.nav{
-    display: inline-block;
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-details{
+    background-color: orange;
     color: white;
-    background-color: none;
-    text-decoration: none;
-
+    align-items: center;
 }
