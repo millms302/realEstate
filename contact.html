@@ -23,11 +23,12 @@
     <main>
         <div class="contact-text">
             <h2>Contact</h2>
-                <p>Fill the next Information</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, soluta officiis aspernatur sed
-                    commodi cum accusamus. Et ut ipsum eveniet eaque enim quos, architecto suscipit labore consequuntur
-                    nesciunt commodi voluptas!
-                </p>
+            
+            <p>Fill the next Information</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, soluta officiis aspernatur sed
+                commodi cum accusamus. Et ut ipsum eveniet eaque enim quos, architecto suscipit labore consequuntur
+                nesciunt commodi voluptas!
+            </p>
         </div>
 
         <form>
@@ -57,8 +58,15 @@
             <fieldset>
                 <legend>Product Information</legend>
                 <div class="input-container">
-                    <label>Type:</label>
-                    <select id="Option 1"></select>
+                    <label >Type:</label>
+                    <select class="selector-container">
+                        <option value="gibson">Gibson</option>
+                        <option value="ibanez">Ibanez</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label>Number</label>
+                    <input type="tel">
                 </div>
             </fieldset>
         </form>
@@ -66,41 +74,36 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                    <div class="input container">
+                    <div class="input-container-radio">
                         <label>Email</label>
+                        <input type="radio">
+                        <label>Phone</label>
                         <input type="radio">
                     </div>
 
-                <div class="input-container">
-                    <label>Phone</label>
-                    <input type="radio">
-                </div>
-
-                <div class="input-container">
-                    <label>Date</label>
-                    <input type="date">
-                </div>
-
-                <div class="input-container">
-                    <label>Hour</label>
-                    <input type="time">
-                </div>
+                    <div class="input-container-contact">
+                        <label>Date</label>
+                        <input type="date">
+                        <label>Hour</label>
+                        <input type="time">
+                    </div>
             </fieldset>
         </form>
     </main>
 
     <footer>
-        <div>
-            <p>Powered by Zillow</p>
+        <div class="zillow">    
+            <a href="https://zillow.com">Powered By: Zillow</a>
         </div>
+
         <div class="cr-links">
             <p>Copyrights</p>
             <p class="pp">Privacy Policy</p>
         </div>
         <div class="sm">
-            <a href="#">Facebook</a>
-            <a href="#">Linkedin</a>
-            <a href="#">Youtube</a>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://linkedin.com">Linkedin</a>
+            <a href="https://youtube.com">Youtube</a>
         </div>
     </footer>
 </body>

@@ -120,6 +120,10 @@ a{
     text-align: center;
 }
 
+.contact-text p {
+    width: 100%;
+}
+
 form{
     width: 80%;
     margin: 50px auto;
@@ -138,6 +142,17 @@ fieldset{
     margin: 20px;
 }
 
+
+.input-container-radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 90px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
 .input-container label{
     display: inline-block;
     width: 100px;
@@ -151,13 +166,14 @@ fieldset{
 
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: lightgray;
     height: 100px;
 }
 
 .cr-links{
     display: flex;
+    justify-content: center;
 }
 
 .pp{
@@ -169,4 +185,25 @@ footer{
 .sm a{
     margin-right: 10px;
     color: black;
+}
+
+.selector-container {
+    width: 70%;
+}
+
+.input-container-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 90px;
+    margin-bottom: 90px;
+}
+
+.zillow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+
 }
