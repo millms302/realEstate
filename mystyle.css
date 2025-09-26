@@ -30,6 +30,35 @@ p{
 
 /*section*/
 
+/*about-container*/
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media((min-width:601px) and (max-width:768px)){
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media((max-width:600px)){
+    .about-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    img{
+        display:block;
+        margin: 10px auto;
+    }
+}
+
+/*house-container*/
+
 .house-container{
     display: flex;
     flex-direction: row;
@@ -69,6 +98,23 @@ p{
     flex-direction: column;
 }
 
+@media((min-width:601px) and (max-width:768px)){
+    .house-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media((max-width:600px)){
+    .house-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+}
+
 .icon-container{
     display: flex;
     flex-direction: row;
@@ -90,6 +136,29 @@ img{
     max-height: 100%;
 }
 
+@media((min-width:601px) and (max-width:768px)){
+    .house-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media((max-width:600px)){
+    .house-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+    img{
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+
+
 /*buttons*/
 
 a{
@@ -97,10 +166,7 @@ a{
     color: white;
 }
 
-.about-container{
-    display: flex;
-    flex-direction: row;
-}
+
 
 .btn-details{
     display: flex;
